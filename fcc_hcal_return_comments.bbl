@@ -99,4 +99,11 @@ ATLAS~Collaboration, M.~Aaboud, et~al., {Measurement of the Soft-Drop Jet Mass
   \href {http://dx.doi.org/10.1103/PhysRevLett.121.092001}
   {\path{doi:10.1103/PhysRevLett.121.092001}}.
 
+\bibitem{Dreyer:2018tjj}
+F.~A. Dreyer, L.~Necib, G.~Soyez, J.~Thaler, {Recursive Soft Drop}, JHEP 06
+  (2018) 093.
+\newblock \href {http://arxiv.org/abs/1804.03657} {\path{arXiv:1804.03657}},
+  \href {http://dx.doi.org/10.1007/JHEP06(2018)093}
+  {\path{doi:10.1007/JHEP06(2018)093}}.
+
 \end{thebibliography}

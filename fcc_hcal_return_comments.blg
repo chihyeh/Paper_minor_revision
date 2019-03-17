@@ -21,45 +21,45 @@ Warning--empty journal in Mangano:2018mur
 Warning--empty journal in Benedikt:2018csr
 Warning--empty journal in Zimmermann:2018wdi
 Warning--empty journal in CMS:2017wyc
-You've used 15 entries,
+You've used 16 entries,
             2955 wiz_defined-function locations,
-            785 strings with 8544 characters,
-and the built_in function-call counts, 4292 in all, are:
-= -- 392
-> -- 174
+            792 strings with 8701 characters,
+and the built_in function-call counts, 4617 in all, are:
+= -- 424
+> -- 187
 < -- 1
-+ -- 68
-- -- 53
-* -- 355
-:= -- 627
-add.period$ -- 23
-call.type$ -- 15
-change.case$ -- 21
++ -- 73
+- -- 57
+* -- 387
+:= -- 672
+add.period$ -- 25
+call.type$ -- 16
+change.case$ -- 22
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 124
-empty$ -- 448
-format.name$ -- 66
-if$ -- 1081
+cite$ -- 21
+duplicate$ -- 133
+empty$ -- 481
+format.name$ -- 71
+if$ -- 1163
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 13
-newline$ -- 63
-num.names$ -- 15
-pop$ -- 80
+int.to.str$ -- 16
+missing$ -- 14
+newline$ -- 67
+num.names$ -- 16
+pop$ -- 84
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 284
+skip$ -- 305
 stack$ -- 0
-substring$ -- 113
-swap$ -- 42
+substring$ -- 122
+swap$ -- 47
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 22
-width$ -- 17
-write$ -- 153
+while$ -- 24
+width$ -- 18
+write$ -- 164
 (There were 3 error messages)
