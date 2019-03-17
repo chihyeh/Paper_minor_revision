@@ -6,7 +6,9 @@
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
 \bibitem{Mangano:2018mur}
-M.~Mangano, et~al., {Future Circular Collider : Vol. 1 Physics opportunities}.
+M.~Mangano, et~al., \href{https://cds.cern.ch/record/2651294}{{Future Circular
+  Collider : Vol. 1 Physics opportunities}}.
+\newline\urlprefix\url{https://cds.cern.ch/record/2651294}
 
 \bibitem{Benedikt:2651299}
 M.~Benedikt, A.~Blondel, O.~Brunner, M.~Capeans~Garrido, F.~Cerutti,
@@ -18,12 +20,14 @@ M.~Benedikt, A.~Blondel, O.~Brunner, M.~Capeans~Garrido, F.~Cerutti,
 \newline\urlprefix\url{http://cds.cern.ch/record/2651299}
 
 \bibitem{Benedikt:2018csr}
-M.~Benedikt, et~al., {Future Circular Collider : Vol. 3 The Hadron Collider
-  (FCC-hh)}.
+M.~Benedikt, et~al., \href{https://cds.cern.ch/record/2651300}{{Future Circular
+  Collider : Vol. 3 The Hadron Collider (FCC-hh)}}.
+\newline\urlprefix\url{https://cds.cern.ch/record/2651300}
 
 \bibitem{Zimmermann:2018wdi}
-F.~Zimmermann, et~al., {Future Circular Collider : Vol. 4 The High-Energy LHC
-  (HE-LHC)}.
+F.~Zimmermann, et~al., \href{https://cds.cern.ch/record/2651305}{{Future
+  Circular Collider : Vol. 4 The High-Energy LHC (HE-LHC)}}.
+\newline\urlprefix\url{https://cds.cern.ch/record/2651305}
 
 \bibitem{Tang:2015qga}
 J.~Tang, et~al., {Concept for a Future Super Proton-Proton Collider} (2015).
@@ -116,7 +120,7 @@ CMS~Collaboration, A.~M. Sirunyan, et~al., {Search for narrow and broad dijet
 \bibitem{Sirunyan:2017acf}
 CMS~Collaboration, A.~M. Sirunyan, et~al., {Search for massive resonances
   decaying into $WW$, $WZ$, $ZZ$, $qW$, and $qZ$ with dijet final states at
-  $\sqrt{s}=13\text{ }\text{ }\mathrm{TeV}$}, Phys. Rev. D97~(7) (2018) 072006.
+  $\sqrt{s}=13\mathrm{TeV}$}, Phys. Rev. D97~(7) (2018) 072006.
 \newblock \href {http://arxiv.org/abs/1708.05379} {\path{arXiv:1708.05379}},
   \href {http://dx.doi.org/10.1103/PhysRevD.97.072006}
   {\path{doi:10.1103/PhysRevD.97.072006}}.
