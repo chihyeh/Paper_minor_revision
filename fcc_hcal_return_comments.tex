@@ -208,20 +208,25 @@ Thanks for the comments from both referees, we did some minor revisions, and thi
 \section{The feedback and comments for referee 1}
 Thank you for your encouragement and comments. For some points you mention in the report, describing as follows:\\
 \begin{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item The note on the impact of HCAL granularity on jet-substructure variables at a future 100 TeV $pp$ collider is a very interesting read. It is well written and structured and together with the single particle studies done in ref. [7] provides good evidence for investing in a hadron calorimeter with fine granularity.\\
 \textcolor{red}{$\rightarrow$}Answer: Yes, thanks! We based on the same detector and did more studies on them.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item There are, however, a few shortcomings that impact the jet substructure more than the previously studied single particles: One such point is already raised in the concluding section 6: Apparently the reduction of HCAL cell size from 5~$\times$~5 cm$^2$ to 1~$\times$~1 cm$^2$ does not improve the ROC curves anymore and in certain cases even worsens them for moderate signal efficiencies. This as mentioned in the conclusions is likely due to the details of the calorimeter clustering used prior to form the jets studied here.\\
  \textcolor{red}{$\rightarrow$}Answer: Yes, we thought about the clustering issue and will do more researches them.
 \item The problem is that none of the relevant clustering parameters (size, dynamic growth, separation/merging criteria, etc.) are mentioned in the paper.\\
  \textcolor{red}{$\rightarrow$}Answer: We added the sentence(next line) in section "Simulation of detector response" of the paper for this problem\\ 
  \textcolor{red}{$\rightarrow$}Sentence:The criteria for clustering in the calorimeter were discussed in~\cite{THOMSON200925} and used for the SiD detector design~\cite{Behnke:2013lya} optimized for high-granularity HCAL with the cell sizes 1~$\times$~1~cm$^2$\\
  \textcolor{red}{$\rightarrow$}We pointed to the paper~\cite{THOMSON200925} and~\cite{Behnke:2013lya} to mention the criteria for clustering parameters.
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item To my mind the study should be extended by an investigation of clustering properties and their optimizations in the light of different granularity choices for the HCAL (and ECAL).\\
  \textcolor{red}{$\rightarrow$}Answer: Yes, since it is the preliminary study, and now the different granularities choices are not optimized, also the clustering properties, that will be our future tasks and wait for probing them.\\
 \item The second point is the source of correlated noise in the calorimeter cells in form of showers stemming from additional $pp$ interactions observed together with the $pp$ collision of interest (so-called pile-up). The distinction made between signal and background in the paper is in fact between two different signal sources, $Z'\rightarrow q\bar{q}$ for background and either $Z' \rightarrow t\bar{t}$ or $Z' \rightarrow WW$) for signal. The jets formed by these do not suffer from the additional pp interactions, which in reality would be a major concern in reconstructing jet substructure reliably.\\
  \textcolor{red}{$\rightarrow$}Answer: Yes, because we wanted to simplify the case that excluded the complicated jet conditions, we only focused on this three types of processes, including QCD jets ($Z'\rightarrow q\bar{q}$), two-prong jets($Z' \rightarrow WW$) and three-prong jets($Z' \rightarrow t\bar{t}$). It can help us to see the exactly HCAL performance for different subjets without the containment jets. The condition mixed with pile-up could be our next step for probing the jet performance of HCAL.
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item Still it is valuable to compare the jet substructure variables of these very high pT jets, given that the impact of pile-up would harm mostly lower energetic jets. I would like to encourage the authors to continue their studies along these two points (clustering and addition of pile-up). Despite the caveats just mentioned I find the results shown very encouraging in terms of highly granular hadron calorimeters and while the presented material is not the end of the story I recommend publishing the paper.\\
  \textcolor{red}{$\rightarrow$}Answer: Thanks! We will take this two points into account and they could be our next step for research. 
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{itemize}
 
 \section{The feedback and comments for referee 2}
@@ -234,12 +239,14 @@ The paper is in general clearly written and the result appears valid.I recommend
  \textcolor{red}{$\rightarrow$}Answer: Yes, it is based on the paper we published before, and we added the sentence(next sentence) in the section "Simulation of detector response" of the paper.\\
  \textcolor{red}{$\rightarrow$}Sentence: \textcolor{red}{The baseline detector discussed in \cite{Chekanov:2016ppq}
 includes a silicon-tungsten electromagnetic calorimeter with the transverse cell size of 2~$\times$~2~cm$^2$, a steel-scintillator hadronic calorimeter with a transverse cell size of 5~$\times$~5~cm$^2$, and the solenoid out of the ECAL and HCAL that provides the 5 T magnetic field.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item References: The FCC/HE-LHC CDR have been released in January, I would then suggest to add/change when needed.\\
  \textcolor{red}{$\rightarrow$}Answer: We finished adding the reference in the section "Introduction" of the paper.\\
  \textcolor{red}{$\rightarrow$}Sentence: \textcolor{red}{Future circular $pp$ colliders~\cite{Mangano:2018mur} such as the European initiatives, FCC-ee~\cite{Benedikt:2651299}, FCC-hh~\cite{Benedikt:2018csr}, high-energy LHC (HE-LHC)~\cite{Zimmermann:2018wdi}, and the Chinese initiative, SppC~\cite{Tang:2015qga} }
 \item Abstract: The values for the granularity given in the abstract are not motivated, especially the starting value. Because not only the eta/phi should matter, but also the longitudinal granularity, thus I would suggest to simply say with reducing the cell size from a hadronic calorimeter by factor 4.\\
  \textcolor{red}{$\rightarrow$}Answer: We modified the texts in the section of "abstract" of the paper.\\
  \textcolor{red}{$\rightarrow$}Sentence: \textcolor{red}{.....with reducing cell size of a hadronic calorimeter from $\Delta \eta \times \Delta \phi = 0.087\times0.087$, the cell sizes of the calorimeters of LHC experiments, by a factor of four, to  $0.022\times0.022$.} 
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item 1.Introduction: Add reference to HE-LHC CDR Volume 4, change the reference to FCC-hh CDR Volume 3\\
  \textcolor{red}{$\rightarrow$}Answer: Solved in section of "References".
 \item 2.Simulation: (1)It is not very clear from the text that you only change the granularity of the HCAL. I would suggest that you explicitly say the ECAL configuration you are using before talking about the HCAL and its segmentation.
@@ -249,6 +256,7 @@ includes a silicon-tungsten electromagnetic calorimeter with the transverse cell
 includes a silicon-tungsten electromagnetic calorimeter with the transverse cell size of 2~$\times$~2~cm$^2$......."} for ECAL configuration.\\
  \textcolor{red}{$\rightarrow$}Answer: For question(2), we added the reference for the different processes in the sentence2 and sentence3(next line)\\
 \textcolor{red}{$\rightarrow$}Sentence2:  \textcolor{red}{The $Z'$ bosons are forced to decay to two light-flavor quark ($q\bar{q}$)~\cite{Sirunyan:2018xlo}, $W^+W^-$~\cite{Sirunyan:2017acf} or $t\bar{t}$~\cite{Sirunyan:2018ryr} final states}. Sentence3: \textcolor{red}{\pythia generator~\cite{Sjostrand:2006za}}.\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item 3. Studies of jet properties: (1)not explained in the text that only $Z' \rightarrow WW$ are used here. (2)I would not be so strict in he statement that cell sizes of LHC detectors are not suitable for tens of TeV jets. Indeed, it performs worse than better granularity, but still the difference with lower granularity is not that large. (3)I would also like you to comment that for the largest mass considered, no difference is observed.\\
  \textcolor{red}{$\rightarrow$}Answer: For question(1), We added the sentence1(next line) in the section "Studies of jet properties" of the paper.\\
  \textcolor{red}{$\rightarrow$}Sentence1: \textcolor{red}{........with the signal $Z'\rightarrow WW$ process only}.\\
@@ -256,6 +264,7 @@ includes a silicon-tungsten electromagnetic calorimeter with the transverse cell
  \textcolor{red}{$\rightarrow$}Sentence2: "\textcolor{red}{.....and both of them now focus on the jet performance below tens-of-TeV. According to our study, we pay attention to the tens-of-TeV jets in HCAL performance for the future, and such the cell sizes are not optimized exactly now.}"\\
    \textcolor{red}{$\rightarrow$}Answer: For question(3), We added the sentence3(next line) in the section "Studies of jet properties" of the paper to give the comments on it.\\
  \textcolor{red}{$\rightarrow$}Sentence3: "\textcolor{red}{For the largest mass, because of too boosted jets come out from $Z'$ particle, no difference is observed between different configurations.}"\\
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item Caption of Fig 2 \textcolor{red}{$\rightarrow$}granularities."\\
  \textcolor{red}{$\rightarrow$}Answer: Solved in the paper.\\
 \item 4.1 soft-drop: I would like some explanations on your choice of the two beta values for the study.\\
@@ -264,13 +273,18 @@ includes a silicon-tungsten electromagnetic calorimeter with the transverse cell
 depends only on the $z_\mathrm{cut}$ and is angle-independent. Oppositely, for $\beta=2$~\cite{Aaboud:2017qwh}, the condition is angle-dependent, which depends on 
 the angular distance between the two subjets and $z_\mathrm{cut}$ and the 
 algorithm becomes infrared and collinear safe. Both of them have different sensitivities to large angle radiation.}\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item 4.2 analysis method: Is the scan in mass done with the binning on Fig3,5,7,9? seems like you would benefit from smaller bins in the bulk of the distribution, but seems you might run out of statistics though.\\
  \textcolor{red}{$\rightarrow$}Answer: We added the sentence in the section "Analysis method" of the "Detector performance with soft drop mass" of the paper to explain this problem.\\
  \textcolor{red}{$\rightarrow$}Sentence: \textcolor{red}{While performing ROC scans, finer bin width optimized for the study is used. However, for the purpose of display, histograms with coarser binning are shown. We apply this condition in all plots includes Sect.5.}\\
+ \textcolor{red}{$\rightarrow$}Answer: We also mention(next line) in Sect.5 of the paper again.\\
+ \textcolor{red}{$\rightarrow$}Sentence: \textcolor{red}{The display for ROC curves and histograms are the same as Sect.4.3, we show the bigger bin width for presenting the histograms, and use the finer bin width to do the analysis}.
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item 4.3 results: (1)Label of figure 3,5,7,9 is not clear. Mention that the background is $Z'\rightarrow q\bar{q}$. (2)Again, it would be good to comment that for the very high mass of 40TeV, no difference can be seen.\\
  \textcolor{red}{$\rightarrow$}Answer:  For question(1), we mention in the caption of the figures with the sentence(next line)\\
  \textcolor{red}{$\rightarrow$}Sentence:  ......." The signal (background) process is $Z' \rightarrow WW$ ($Z'\rightarrow q\bar{q}$)....."\\
  \textcolor{red}{$\rightarrow$}Answer:  For question (2), jet of three type of processes are too boosted that can't distinguish with the smallest detecter cell size.\\
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item 5.1 N-subjetiness: (1)Same comment for the scan of Fig 11, 13, 15 as before, seems the binning is a bit too coarse for a scan. (2)For the scan, you add the bin with the larger number of SIGNAL events to extend the mass window? Sorry, now Im confused by the end of page 11 and the beginning of page 13. Which scanning method is used in the end to make the ROC curves? (3)How can you interpret the fact that larger cell size gives better results for low mZ?? Seems like something is not optimised, as there is not reason to see this behaviour, and that will be good to comment more on it.\\
  \textcolor{red}{$\rightarrow$}Answer: For question(1), same as before, While performing ROC scans, finer bin width optimized for the study is used. However, for the purpose of display, histograms with coarser binning are shown. We apply this condition in all plots includes Sect.5.\\
  \textcolor{red}{$\rightarrow$}Answer: For question(2), Sorry for confusion, since they had very different way to do the study, we deleted the "Same as Sect.4.2" those texts and write it own way, and can avoid to confuse about which method we used.\\
