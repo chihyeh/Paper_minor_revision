@@ -1,0 +1,102 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{THOMSON200925}
+M.~Thomson,
+  \href{http://www.sciencedirect.com/science/article/pii/S0168900209017264}{Particle
+  flow calorimetry and the pandorapfa algorithm}, Nuclear Instruments and
+  Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors
+  and Associated Equipment 611~(1) (2009) 25 -- 40.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.nima.2009.09.009}
+  {\path{doi:https://doi.org/10.1016/j.nima.2009.09.009}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0168900209017264}
+
+\bibitem{Behnke:2013lya}
+H.~Abramowicz, et~al., {The International Linear Collider Technical Design
+  Report - Volume 4: Detectors}\href {http://arxiv.org/abs/1306.6329}
+  {\path{arXiv:1306.6329}}.
+
+\bibitem{Chekanov:2016ppq}
+S.~V. Chekanov, M.~Beydler, A.~V. Kotwal, L.~Gray, S.~Sen, N.~V. Tran, S.~S.
+  Yu, J.~Zuzelski, {Initial performance studies of a general-purpose detector
+  for multi-TeV physics at a 100 TeV pp collider}, JINST 12~(06) (2017) P06009.
+\newblock \href {http://arxiv.org/abs/1612.07291} {\path{arXiv:1612.07291}},
+  \href {http://dx.doi.org/10.1088/1748-0221/12/06/P06009}
+  {\path{doi:10.1088/1748-0221/12/06/P06009}}.
+
+\bibitem{Mangano:2018mur}
+M.~Mangano, et~al., {Future Circular Collider : Vol. 1 Physics opportunities}.
+
+\bibitem{Benedikt:2651299}
+M.~Benedikt, A.~Blondel, O.~Brunner, M.~Capeans~Garrido, F.~Cerutti,
+  J.~Gutleber, P.~Janot, J.~M. Jimenez, V.~Mertens, A.~Milanese, K.~Oide, J.~A.
+  Osborne, T.~Otto, Y.~Papaphilippou, J.~Poole, L.~J. Tavian, F.~Zimmermann,
+  \href{http://cds.cern.ch/record/2651299}{{Future Circular Collider: Vol. 2
+  The Lepton Collider (FCC-ee)}}, Tech. Rep. CERN-ACC-2018-0057, CERN, Geneva,
+  submitted for publication to Eur. Phys. J. ST. (Dec 2018).
+\newline\urlprefix\url{http://cds.cern.ch/record/2651299}
+
+\bibitem{Benedikt:2018csr}
+M.~Benedikt, et~al., {Future Circular Collider : Vol. 3 The Hadron Collider
+  (FCC-hh)}.
+
+\bibitem{Zimmermann:2018wdi}
+F.~Zimmermann, et~al., {Future Circular Collider : Vol. 4 The High-Energy LHC
+  (HE-LHC)}.
+
+\bibitem{Tang:2015qga}
+J.~Tang, et~al., {Concept for a Future Super Proton-Proton Collider} (2015).
+\newblock \href {http://arxiv.org/abs/1507.03224} {\path{arXiv:1507.03224}}.
+
+\bibitem{Sirunyan:2018xlo}
+CMS~Collaboration, A.~M. Sirunyan, et~al., {Search for narrow and broad dijet
+  resonances in proton-proton collisions at $ \sqrt{s}=13 $ TeV and constraints
+  on dark matter mediators and other new particles}, JHEP 08 (2018) 130.
+\newblock \href {http://arxiv.org/abs/1806.00843} {\path{arXiv:1806.00843}},
+  \href {http://dx.doi.org/10.1007/JHEP08(2018)130}
+  {\path{doi:10.1007/JHEP08(2018)130}}.
+
+\bibitem{Sirunyan:2017acf}
+CMS~Collaboration, A.~M. Sirunyan, et~al., {Search for massive resonances
+  decaying into $WW$, $WZ$, $ZZ$, $qW$, and $qZ$ with dijet final states at
+  $\sqrt{s}=13\text{ }\text{ }\mathrm{TeV}$}, Phys. Rev. D97~(7) (2018) 072006.
+\newblock \href {http://arxiv.org/abs/1708.05379} {\path{arXiv:1708.05379}},
+  \href {http://dx.doi.org/10.1103/PhysRevD.97.072006}
+  {\path{doi:10.1103/PhysRevD.97.072006}}.
+
+\bibitem{Sirunyan:2018ryr}
+CMS~Collaboration, A.~M. Sirunyan, et~al., {Search for resonant $\mathrm{t
+  \bar{t}}$ production in proton-proton collisions at $\sqrt{s}=$ 13 TeV},
+  Submitted to: JHEP\href {http://arxiv.org/abs/1810.05905}
+  {\path{arXiv:1810.05905}}.
+
+\bibitem{Sjostrand:2006za}
+T.~Sjostrand, S.~Mrenna, P.~Z. Skands, {PYTHIA 6.4 Physics and Manual}, JHEP 05
+  (2006) 026.
+\newblock \href {http://arxiv.org/abs/hep-ph/0603175}
+  {\path{arXiv:hep-ph/0603175}}.
+
+\bibitem{CMS:2017wyc}
+CMS~Collaboration, C.~Collaboration, {Jet algorithms performance in 13 TeV
+  data}.
+
+\bibitem{Tripathee:2017ybi}
+A.~Tripathee, W.~Xue, A.~Larkoski, S.~Marzani, J.~Thaler, {Jet Substructure
+  Studies with CMS Open Data}, Phys. Rev. D96~(7) (2017) 074003.
+\newblock \href {http://arxiv.org/abs/1704.05842} {\path{arXiv:1704.05842}},
+  \href {http://dx.doi.org/10.1103/PhysRevD.96.074003}
+  {\path{doi:10.1103/PhysRevD.96.074003}}.
+
+\bibitem{Aaboud:2017qwh}
+ATLAS~Collaboration, M.~Aaboud, et~al., {Measurement of the Soft-Drop Jet Mass
+  in pp Collisions at $\sqrt{s} = 13$ TeV with the ATLAS Detector}, Phys. Rev.
+  Lett. 121~(9) (2018) 092001.
+\newblock \href {http://arxiv.org/abs/1711.08341} {\path{arXiv:1711.08341}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.121.092001}
+  {\path{doi:10.1103/PhysRevLett.121.092001}}.
+
+\end{thebibliography}
