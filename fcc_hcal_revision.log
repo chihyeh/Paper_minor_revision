@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  17 MAR 2019 18:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  22 MAR 2019 09:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1420,7 +1420,99 @@ fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf used on input line 228.
 
 (pdftex.def)             Requested size: 185.65297pt x 129.00539pt.
 )
-(./fcc_Mannuwhitney_eff_New_mass_cut_no_UOF_new.tex
+(./fcc_Mannuwhitney_eff_New_mass_cut_no_UOF_new.tex [7pdfTeX warning (ext4): de
+stination with the same identifier (name{figure.3}) has been already used, dupl
+icate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.4 \subsection
+               {$N$-subjettiness \label{sec:nsub}} <./h_soft_drop/Dis_cluster_0
+10_mass_mmdt_20tev_04_no_UOF-eps-converted-to.pdf> <./h_soft_drop/Dis_cluster_0
+09_mass_mmdt_20tev_04_no_UOF-eps-converted-to.pdf> <./h_soft_drop/Dis_cluster_0
+12_mass_mmdt_20tev_04_no_UOF-eps-converted-to.pdf>] [8pdfTeX warning (ext4): de
+stination with the same identifier (name{figure.4}) has been already used, dupl
+icate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.4 \subsection
+               {$N$-subjettiness \label{sec:nsub}}pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.5}) has been already used, duplicat
+e ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.4 \subsection
+               {$N$-subjettiness \label{sec:nsub}} <./ROC_soft_drop/A_Cluster_m
+ass_mmdt_5tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to
+.pdf> <./ROC_soft_drop/A_Cluster_mass_mmdt_10tev_eff_1_central_fix_at_Median_bi
+n_ww_qq_log_no_UOF-eps-converted-to.pdf> <./ROC_soft_drop/A_Cluster_mass_mmdt_2
+0tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf> <./
+ROC_soft_drop/A_Cluster_mass_mmdt_40tev_eff_1_central_fix_at_Median_bin_ww_qq_l
+og_no_UOF-eps-converted-to.pdf> <./h_soft_drop/Dis_cluster_010_mass_mmdt_tt_20t
+ev_04_tt_no_UOF-eps-converted-to.pdf> <./h_soft_drop/Dis_cluster_009_mass_mmdt_
+tt_20tev_04_tt_no_UOF-eps-converted-to.pdf> <./h_soft_drop/Dis_cluster_012_mass
+_mmdt_tt_20tev_04_tt_no_UOF-eps-converted-to.pdf>] [9pdfTeX warning (ext4): des
+tination with the same identifier (name{figure.6}) has been already used, dupli
+cate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.4 \subsection
+               {$N$-subjettiness \label{sec:nsub}}pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.7}) has been already used, duplicat
+e ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.4 \subsection
+               {$N$-subjettiness \label{sec:nsub}} <./ROC_soft_drop/A_Cluster_m
+ass_mmdt_5tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to
+.pdf> <./ROC_soft_drop/A_Cluster_mass_mmdt_10tev_eff_1_central_fix_at_Median_bi
+n_tt_qq_log_no_UOF-eps-converted-to.pdf> <./ROC_soft_drop/A_Cluster_mass_mmdt_2
+0tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf> <./
+ROC_soft_drop/A_Cluster_mass_mmdt_40tev_eff_1_central_fix_at_Median_bin_tt_qq_l
+og_no_UOF-eps-converted-to.pdf> <./h_soft_drop/Dis_cluster_010_mass_sdb2_ww_20t
+ev_04_1600_no_UOF-eps-converted-to.pdf> <./h_soft_drop/Dis_cluster_009_mass_sdb
+2_ww_20tev_04_1600_no_UOF-eps-converted-to.pdf> <./h_soft_drop/Dis_cluster_012_
+mass_sdb2_ww_20tev_04_1600_no_UOF-eps-converted-to.pdf>] [10pdfTeX warning (ext
+4): destination with the same identifier (name{figure.8}) has been already used
+, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.4 \subsection
+               {$N$-subjettiness \label{sec:nsub}}pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.9}) has been already used, duplicat
+e ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.4 \subsection
+               {$N$-subjettiness \label{sec:nsub}} <./ROC_soft_drop/A_Cluster_m
+ass_sdb2_5tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to
+.pdf> <./ROC_soft_drop/A_Cluster_mass_sdb2_10tev_eff_1_central_fix_at_Median_bi
+n_ww_qq_log_no_UOF-eps-converted-to.pdf> <./ROC_soft_drop/A_Cluster_mass_sdb2_2
+0tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf> <./
+ROC_soft_drop/A_Cluster_mass_sdb2_40tev_eff_1_central_fix_at_Median_bin_ww_qq_l
+og_no_UOF-eps-converted-to.pdf> <./h_soft_drop/Dis_cluster_010_mass_sdb2_tt_20t
+ev_04_tt_2400_no_UOF-eps-converted-to.pdf> <./h_soft_drop/Dis_cluster_009_mass_
+sdb2_tt_20tev_04_tt_2400_no_UOF-eps-converted-to.pdf> <./h_soft_drop/Dis_cluste
+r_012_mass_sdb2_tt_20tev_04_tt_2400_no_UOF-eps-converted-to.pdf>] [11pdfTeX war
+ning (ext4): destination with the same identifier (name{figure.10}) has been al
+ready used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.4 \subsection
+               {$N$-subjettiness \label{sec:nsub}} <./ROC_soft_drop/A_Cluster_m
+ass_sdb2_5tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to
+.pdf> <./ROC_soft_drop/A_Cluster_mass_sdb2_10tev_eff_1_central_fix_at_Median_bi
+n_tt_qq_log_no_UOF-eps-converted-to.pdf> <./ROC_soft_drop/A_Cluster_mass_sdb2_2
+0tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf> <./
+ROC_soft_drop/A_Cluster_mass_sdb2_40tev_eff_1_central_fix_at_Median_bin_tt_qq_l
+og_no_UOF-eps-converted-to.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 4.
@@ -1429,95 +1521,6 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 4.
 
-[7pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.10 \begin{equation}
-                     \label{eq:Nsub_1} <./h_soft_drop/Dis_cluster_010_mass_mmdt
-_20tev_04_no_UOF-eps-converted-to.pdf> <./h_soft_drop/Dis_cluster_009_mass_mmdt
-_20tev_04_no_UOF-eps-converted-to.pdf> <./h_soft_drop/Dis_cluster_012_mass_mmdt
-_20tev_04_no_UOF-eps-converted-to.pdf>] [8pdfTeX warning (ext4): destination wi
-th the same identifier (name{figure.4}) has been already used, duplicate ignore
-d
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.10 \begin{equation}
-                     \label{eq:Nsub_1}pdfTeX warning (ext4): destination with t
-he same identifier (name{figure.5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.10 \begin{equation}
-                     \label{eq:Nsub_1} <./ROC_soft_drop/A_Cluster_mass_mmdt_5te
-v_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf> <./ROC
-_soft_drop/A_Cluster_mass_mmdt_10tev_eff_1_central_fix_at_Median_bin_ww_qq_log_
-no_UOF-eps-converted-to.pdf> <./ROC_soft_drop/A_Cluster_mass_mmdt_20tev_eff_1_c
-entral_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf> <./ROC_soft_dro
-p/A_Cluster_mass_mmdt_40tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF-ep
-s-converted-to.pdf> <./h_soft_drop/Dis_cluster_010_mass_mmdt_tt_20tev_04_tt_no_
-UOF-eps-converted-to.pdf> <./h_soft_drop/Dis_cluster_009_mass_mmdt_tt_20tev_04_
-tt_no_UOF-eps-converted-to.pdf> <./h_soft_drop/Dis_cluster_012_mass_mmdt_tt_20t
-ev_04_tt_no_UOF-eps-converted-to.pdf>] [9pdfTeX warning (ext4): destination wit
-h the same identifier (name{figure.6}) has been already used, duplicate ignored
-
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.10 \begin{equation}
-                     \label{eq:Nsub_1}pdfTeX warning (ext4): destination with t
-he same identifier (name{figure.7}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.10 \begin{equation}
-                     \label{eq:Nsub_1} <./ROC_soft_drop/A_Cluster_mass_mmdt_5te
-v_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf> <./ROC
-_soft_drop/A_Cluster_mass_mmdt_10tev_eff_1_central_fix_at_Median_bin_tt_qq_log_
-no_UOF-eps-converted-to.pdf> <./ROC_soft_drop/A_Cluster_mass_mmdt_20tev_eff_1_c
-entral_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf> <./ROC_soft_dro
-p/A_Cluster_mass_mmdt_40tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF-ep
-s-converted-to.pdf> <./h_soft_drop/Dis_cluster_010_mass_sdb2_ww_20tev_04_1600_n
-o_UOF-eps-converted-to.pdf> <./h_soft_drop/Dis_cluster_009_mass_sdb2_ww_20tev_0
-4_1600_no_UOF-eps-converted-to.pdf> <./h_soft_drop/Dis_cluster_012_mass_sdb2_ww
-_20tev_04_1600_no_UOF-eps-converted-to.pdf>] [10pdfTeX warning (ext4): destinat
-ion with the same identifier (name{figure.8}) has been already used, duplicate 
-ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.10 \begin{equation}
-                     \label{eq:Nsub_1}pdfTeX warning (ext4): destination with t
-he same identifier (name{figure.9}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.10 \begin{equation}
-                     \label{eq:Nsub_1} <./ROC_soft_drop/A_Cluster_mass_sdb2_5te
-v_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf> <./ROC
-_soft_drop/A_Cluster_mass_sdb2_10tev_eff_1_central_fix_at_Median_bin_ww_qq_log_
-no_UOF-eps-converted-to.pdf> <./ROC_soft_drop/A_Cluster_mass_sdb2_20tev_eff_1_c
-entral_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf> <./ROC_soft_dro
-p/A_Cluster_mass_sdb2_40tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF-ep
-s-converted-to.pdf> <./h_soft_drop/Dis_cluster_010_mass_sdb2_tt_20tev_04_tt_240
-0_no_UOF-eps-converted-to.pdf> <./h_soft_drop/Dis_cluster_009_mass_sdb2_tt_20te
-v_04_tt_2400_no_UOF-eps-converted-to.pdf> <./h_soft_drop/Dis_cluster_012_mass_s
-db2_tt_20tev_04_tt_2400_no_UOF-eps-converted-to.pdf>] [11pdfTeX warning (ext4):
- destination with the same identifier (name{figure.10}) has been already used, 
-duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.10 \begin{equation}
-                     \label{eq:Nsub_1} <./ROC_soft_drop/A_Cluster_mass_sdb2_5te
-v_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf> <./ROC
-_soft_drop/A_Cluster_mass_sdb2_10tev_eff_1_central_fix_at_Median_bin_tt_qq_log_
-no_UOF-eps-converted-to.pdf> <./ROC_soft_drop/A_Cluster_mass_sdb2_20tev_eff_1_c
-entral_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf> <./ROC_soft_dro
-p/A_Cluster_mass_sdb2_40tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF-ep
-s-converted-to.pdf>]
 Package epstopdf Info: Source file: <h_Tau_C/Dis_Rawhit_05GeV_010_tau21_20tev_0
 4_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps>
 (epstopdf)                    date: 2018-11-30 11:34:08
@@ -1727,7 +1730,7 @@ _for_paper.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <h_Tau_C/Dis_Rawhit_05GeV_010_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_f
-or_paper-eps-converted-to.pdf, id=926, 569.12625pt x 543.02875pt>
+or_paper-eps-converted-to.pdf, id=924, 569.12625pt x 543.02875pt>
 File: h_Tau_C/Dis_Rawhit_05GeV_010_tau32_20tev_04_after_cut_Man_25_no_UOF_new_7
 5pa_for_paper-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1752,7 +1755,7 @@ _for_paper.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <h_Tau_C/Dis_Rawhit_05GeV_009_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_f
-or_paper-eps-converted-to.pdf, id=927, 569.12625pt x 543.02875pt>
+or_paper-eps-converted-to.pdf, id=925, 569.12625pt x 543.02875pt>
 File: h_Tau_C/Dis_Rawhit_05GeV_009_tau32_20tev_04_after_cut_Man_25_no_UOF_new_7
 5pa_for_paper-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1777,7 +1780,7 @@ _for_paper.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <h_Tau_C/Dis_Rawhit_05GeV_012_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_f
-or_paper-eps-converted-to.pdf, id=928, 569.12625pt x 543.02875pt>
+or_paper-eps-converted-to.pdf, id=926, 569.12625pt x 543.02875pt>
 File: h_Tau_C/Dis_Rawhit_05GeV_012_tau32_20tev_04_after_cut_Man_25_no_UOF_new_7
 5pa_for_paper-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1801,7 +1804,7 @@ u_C/Rawhit_05GeV_tau32_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <ROC_Tau_C/Rawhit_05GeV_tau32_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-
-eps-converted-to.pdf, id=929, 569.12625pt x 395.4775pt>
+eps-converted-to.pdf, id=927, 569.12625pt x 395.4775pt>
 File: ROC_Tau_C/Rawhit_05GeV_tau32_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_
 75pa-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1825,7 +1828,7 @@ au_C/Rawhit_05GeV_tau32_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <ROC_Tau_C/Rawhit_05GeV_tau32_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa
--eps-converted-to.pdf, id=930, 569.12625pt x 395.4775pt>
+-eps-converted-to.pdf, id=928, 569.12625pt x 395.4775pt>
 File: ROC_Tau_C/Rawhit_05GeV_tau32_10tev_eff_1_New2_after_cut_25bins_no_UOF_new
 _75pa-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1849,7 +1852,7 @@ au_C/Rawhit_05GeV_tau32_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <ROC_Tau_C/Rawhit_05GeV_tau32_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa
--eps-converted-to.pdf, id=931, 569.12625pt x 395.4775pt>
+-eps-converted-to.pdf, id=929, 569.12625pt x 395.4775pt>
 File: ROC_Tau_C/Rawhit_05GeV_tau32_20tev_eff_1_New2_after_cut_25bins_no_UOF_new
 _75pa-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1873,7 +1876,7 @@ au_C/Rawhit_05GeV_tau32_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <ROC_Tau_C/Rawhit_05GeV_tau32_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa
--eps-converted-to.pdf, id=932, 569.12625pt x 395.4775pt>
+-eps-converted-to.pdf, id=930, 569.12625pt x 395.4775pt>
 File: ROC_Tau_C/Rawhit_05GeV_tau32_40tev_eff_1_New2_after_cut_25bins_no_UOF_new
 _75pa-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1898,7 +1901,7 @@ or_paper.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <h_Tau_C/Dis_Rawhit_05GeV_010_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_fo
-r_paper-eps-converted-to.pdf, id=933, 569.12625pt x 543.02875pt>
+r_paper-eps-converted-to.pdf, id=931, 569.12625pt x 543.02875pt>
 File: h_Tau_C/Dis_Rawhit_05GeV_010_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75
 pa_for_paper-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1923,7 +1926,7 @@ or_paper.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <h_Tau_C/Dis_Rawhit_05GeV_009_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_fo
-r_paper-eps-converted-to.pdf, id=934, 569.12625pt x 543.02875pt>
+r_paper-eps-converted-to.pdf, id=932, 569.12625pt x 543.02875pt>
 File: h_Tau_C/Dis_Rawhit_05GeV_009_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75
 pa_for_paper-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1948,7 +1951,7 @@ or_paper.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <h_Tau_C/Dis_Rawhit_05GeV_012_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_fo
-r_paper-eps-converted-to.pdf, id=935, 569.12625pt x 543.02875pt>
+r_paper-eps-converted-to.pdf, id=933, 569.12625pt x 543.02875pt>
 File: h_Tau_C/Dis_Rawhit_05GeV_012_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75
 pa_for_paper-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1972,7 +1975,7 @@ _C/Rawhit_05GeV_c2b1_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <ROC_Tau_C/Rawhit_05GeV_c2b1_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-e
-ps-converted-to.pdf, id=936, 569.12625pt x 395.4775pt>
+ps-converted-to.pdf, id=934, 569.12625pt x 395.4775pt>
 File: ROC_Tau_C/Rawhit_05GeV_c2b1_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_7
 5pa-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1996,7 +1999,7 @@ u_C/Rawhit_05GeV_c2b1_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <ROC_Tau_C/Rawhit_05GeV_c2b1_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-
-eps-converted-to.pdf, id=937, 569.12625pt x 395.4775pt>
+eps-converted-to.pdf, id=935, 569.12625pt x 395.4775pt>
 File: ROC_Tau_C/Rawhit_05GeV_c2b1_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_
 75pa-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2020,7 +2023,7 @@ u_C/Rawhit_05GeV_c2b1_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <ROC_Tau_C/Rawhit_05GeV_c2b1_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-
-eps-converted-to.pdf, id=938, 569.12625pt x 395.4775pt>
+eps-converted-to.pdf, id=936, 569.12625pt x 395.4775pt>
 File: ROC_Tau_C/Rawhit_05GeV_c2b1_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_
 75pa-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2044,7 +2047,7 @@ u_C/Rawhit_05GeV_c2b1_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <ROC_Tau_C/Rawhit_05GeV_c2b1_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-
-eps-converted-to.pdf, id=939, 569.12625pt x 395.4775pt>
+eps-converted-to.pdf, id=937, 569.12625pt x 395.4775pt>
 File: ROC_Tau_C/Rawhit_05GeV_c2b1_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_
 75pa-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2058,45 +2061,49 @@ _25bins_no_UOF_new_75pa-eps-converted-to.pdf used on input line 206.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.237 
-       <./h_Tau_C/Dis_Rawhit_05GeV_010_tau32_20tev_04_after_cut_Man_25_no_UOF_n
-ew_75pa_for_paper-eps-converted-to.pdf> <./h_Tau_C/Dis_Rawhit_05GeV_009_tau32_2
-0tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf> <./h_T
-au_C/Dis_Rawhit_05GeV_012_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_p
-aper-eps-converted-to.pdf>] [15pdfTeX warning (ext4): destination with the same
- identifier (name{figure.14}) has been already used, duplicate ignored
+l.229 F
+       igure~\ref{fig:Rawhit_05GeV_c2b1_Dis} presents the histograms of $C_{...
+ <./h_Tau_C/Dis_Rawhit_05GeV_010_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75p
+a_for_paper-eps-converted-to.pdf> <./h_Tau_C/Dis_Rawhit_05GeV_009_tau32_20tev_0
+4_after_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf> <./h_Tau_C/D
+is_Rawhit_05GeV_012_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper-e
+ps-converted-to.pdf>] [15pdfTeX warning (ext4): destination with the same ident
+ifier (name{figure.14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.237 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-15}) has been already used, duplicate ignored
+l.229 F
+       igure~\ref{fig:Rawhit_05GeV_c2b1_Dis} presents the histograms of $C_{...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) h
+as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.237 
-       <./ROC_Tau_C/Rawhit_05GeV_tau32_5tev_eff_1_New2_after_cut_25bins_no_UOF_
-new_75pa-eps-converted-to.pdf> <./ROC_Tau_C/Rawhit_05GeV_tau32_10tev_eff_1_New2
-_after_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf> <./ROC_Tau_C/Rawhit_05G
-eV_tau32_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf
-> <./ROC_Tau_C/Rawhit_05GeV_tau32_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_
-75pa-eps-converted-to.pdf> <./h_Tau_C/Dis_Rawhit_05GeV_010_c2b1_20tev_04_after_
-cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf> <./h_Tau_C/Dis_Rawhi
-t_05GeV_009_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper-eps-conver
-ted-to.pdf> <./h_Tau_C/Dis_Rawhit_05GeV_012_c2b1_20tev_04_after_cut_Man_25_no_U
-OF_new_75pa_for_paper-eps-converted-to.pdf>] [16pdfTeX warning (ext4): destinat
-ion with the same identifier (name{figure.16}) has been already used, duplicate
- ignored
+l.229 F
+       igure~\ref{fig:Rawhit_05GeV_c2b1_Dis} presents the histograms of $C_{...
+ <./ROC_Tau_C/Rawhit_05GeV_tau32_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75
+pa-eps-converted-to.pdf> <./ROC_Tau_C/Rawhit_05GeV_tau32_10tev_eff_1_New2_after
+_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf> <./ROC_Tau_C/Rawhit_05GeV_tau
+32_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf> <./R
+OC_Tau_C/Rawhit_05GeV_tau32_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-e
+ps-converted-to.pdf> <./h_Tau_C/Dis_Rawhit_05GeV_010_c2b1_20tev_04_after_cut_Ma
+n_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf> <./h_Tau_C/Dis_Rawhit_05Ge
+V_009_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to
+.pdf> <./h_Tau_C/Dis_Rawhit_05GeV_012_c2b1_20tev_04_after_cut_Man_25_no_UOF_new
+_75pa_for_paper-eps-converted-to.pdf>] [16pdfTeX warning (ext4): destination wi
+th the same identifier (name{figure.16}) has been already used, duplicate ignor
+ed
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.237 
-       <./ROC_Tau_C/Rawhit_05GeV_c2b1_5tev_eff_1_New2_after_cut_25bins_no_UOF_n
-ew_75pa-eps-converted-to.pdf> <./ROC_Tau_C/Rawhit_05GeV_c2b1_10tev_eff_1_New2_a
-fter_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf> <./ROC_Tau_C/Rawhit_05GeV
-_c2b1_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf> <
-./ROC_Tau_C/Rawhit_05GeV_c2b1_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa
--eps-converted-to.pdf>]) (./fcc_conclusion.tex) [17] (./fcc_hcal_revision.bbl
+l.229 F
+       igure~\ref{fig:Rawhit_05GeV_c2b1_Dis} presents the histograms of $C_{...
+ <./ROC_Tau_C/Rawhit_05GeV_c2b1_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75p
+a-eps-converted-to.pdf> <./ROC_Tau_C/Rawhit_05GeV_c2b1_10tev_eff_1_New2_after_c
+ut_25bins_no_UOF_new_75pa-eps-converted-to.pdf> <./ROC_Tau_C/Rawhit_05GeV_c2b1_
+20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf> <./ROC_
+Tau_C/Rawhit_05GeV_c2b1_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-c
+onverted-to.pdf>]) (./fcc_conclusion.tex) [17] (./fcc_hcal_revision.bbl
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ® in font cmr9!
 
@@ -2121,7 +2128,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 326.
 Here is how much of TeX's memory you used:
  9137 strings out of 492995
  155515 string characters out of 6132704
- 261462 words of memory out of 5000000
+ 260463 words of memory out of 5000000
  12295 multiletter control sequences out of 15000+600000
  17321 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2147,7 +2154,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2017/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2017/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on fcc_hcal_revision.pdf (19 pages, 681112 bytes).
+Output written on fcc_hcal_revision.pdf (19 pages, 681316 bytes).
 PDF statistics:
  1345 PDF objects out of 1440 (max. 8388607)
  1056 compressed objects within 11 object streams

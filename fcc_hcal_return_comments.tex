@@ -60,7 +60,8 @@
 \usepackage{float}
 \usepackage{verbatim}
 \usepackage{color,soul}
-
+\usepackage{xcolor}
+\usepackage{lipsum}
 % to cross text
 \usepackage[normalem]{ulem} % either use this (simple) or
 \usepackage{soul} % use this (many fancier options)
@@ -248,50 +249,69 @@ includes a silicon-tungsten electromagnetic calorimeter with the transverse cell
  \textcolor{red}{$\rightarrow$}Sentence: \textcolor{red}{.....with reducing cell size of a hadronic calorimeter from $\Delta \eta \times \Delta \phi = 0.087\times0.087$, the cell sizes of the calorimeters of LHC experiments, by a factor of four, to  $0.022\times0.022$.} 
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item 1.Introduction: Add the reference to HE-LHC CDR Volume 4, change the reference to FCC-hh CDR Volume 3\\
- \textcolor{red}{$\rightarrow$}Answer: Solved in section of "References".
-\item 2.Simulation: (1)It is not very clear from the text that you only change the granularity of the HCAL. I would suggest that you explicitly say the ECAL configuration you are using before talking about the HCAL and its segmentation.
-(2)Add the reference to the Z model used and to Pythia8.\\
+\textcolor{red}{$\rightarrow$}Answer: Solved in problems of "References".
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item 2.Simulation:\\
+(1)It is not very clear from the text that you only change the granularity of the HCAL. I would suggest that you explicitly say the ECAL configuration you are using before talking about the HCAL and its segmentation.\\
  \textcolor{red}{$\rightarrow$}Answer: For question(1), we added the sentence1(next line) in the section "Simulation of detector response" of the paper.\\
  \textcolor{red}{$\rightarrow$}Sentence1: \textcolor{red}{"The baseline detector discussed in \cite{Chekanov:2016ppq}
 includes a silicon-tungsten electromagnetic calorimeter with the transverse cell size of 2~$\times$~2~cm$^2$......."} for ECAL configuration.\\
+ \rule{\textwidth}{0.4pt}
+(2)Add the reference to the Z model used and to Pythia8.\\
  \textcolor{red}{$\rightarrow$}Answer: For question(2), we added the reference in the section "Simulation of detector response" of the paper for the different processes in the sentence2 and sentence3(next line)\\
 \textcolor{red}{$\rightarrow$}Sentence2:  \textcolor{red}{The $Z'$ bosons are forced to decay to two light-flavor quark ($q\bar{q}$)~\cite{Sirunyan:2018xlo}, $W^+W^-$~\cite{Sirunyan:2017acf} or $t\bar{t}$~\cite{Sirunyan:2018ryr} final states}. Sentence3: \textcolor{red}{\pythia generator~\cite{Sjostrand:2006za}}.\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item 3. Studies of jet properties: (1)not explained in the text that only $Z' \rightarrow WW$ are used here. (2)I would not be so strict in the statement that cell sizes of LHC detectors are not suitable for tens of TeV jets. Indeed, it performs worse than better granularity, but still, the difference with lower granularity is not that large. (3)I would also like you to comment that for the largest mass considered, no difference is observed.\\
+\item 3. Studies of jet properties:\\
+(1)not explained in the text that only $Z' \rightarrow WW$ are used here. \\
  \textcolor{red}{$\rightarrow$}Answer: For question(1), We added the sentence1(next line) in the section "Studies of jet properties" of the paper.\\
  \textcolor{red}{$\rightarrow$}Sentence1: \textcolor{red}{........with the signal $Z'\rightarrow WW$ process only}.\\
+ \rule{\textwidth}{0.4pt}
+(2)I would not be so strict in the statement that cell sizes of LHC detectors are not suitable for tens of TeV jets. Indeed, it performs worse than better granularity, but still, the difference with lower granularity is not that large.\\ 
   \textcolor{red}{$\rightarrow$}Answer: For question(2), We added the sentence2(next line) to change the statement in the section "Studies of jet properties" of the paper.\\
  \textcolor{red}{$\rightarrow$}Sentence2: "\textcolor{red}{.....and both of them now focus on the jet performance below tens-of-TeV. According to our study, we pay attention to the tens-of-TeV jets in HCAL performance for the future, and such the cell sizes are not optimized exactly now.}"\\
+ \rule{\textwidth}{0.4pt}
+(3)I would also like you to comment that for the largest mass considered, no difference is observed.\\
    \textcolor{red}{$\rightarrow$}Answer: For question(3), We added the sentence3(next line) in the section "Studies of jet properties" of the paper to give the comments on it.\\
- \textcolor{red}{$\rightarrow$}Sentence3: "\textcolor{red}{For the largest mass, because of too boosted jets come out from $Z'$ particle, no difference is observed between different configurations.}"\\
+ \textcolor{red}{$\rightarrow$}Sentence3: "\textcolor{red}{The extreme case with $M(Z')=40$ TeV corresponds to very boosted jets, 
+with roughly $p_T \simeq 20$~TeV for each jet.  This case does not show 
+differences between different detector configuration.}"\\
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item Caption of Fig 2 \textcolor{red}{$\rightarrow$}granularities."\\
+\item Caption of Fig 2 $\rightarrow$"granularities."\\
  \textcolor{red}{$\rightarrow$}Answer: Solved in the paper.\\
 \item 4.1 soft-drop: I would like some explanations on your choice of the two beta values for the study.\\
- \textcolor{red}{$\rightarrow$}Answer: We added the sentence in the section of "The technique of soft drop declustering" of the paper to explain.\\
+ \textcolor{red}{$\rightarrow$}Answer: We added the sentence(next line) in the section of "The technique of soft drop declustering" of the paper to explain.\\
  \textcolor{red}{$\rightarrow$}Sentence: \textcolor{red}{For $\beta=0$~\cite{CMS:2017wyc,Tripathee:2017ybi}, the soft drop condition 
-depends only on the $z_\mathrm{cut}$ and is angle-independent. Oppositely, for $\beta=2$~\cite{Aaboud:2017qwh}, the condition is angle-dependent, which depends on the angular distance between the two subjets and $z_\mathrm{cut}$ and the algorithm becomes infrared and collinear safe. Both of them have different sensitivities to large angle radiation.}\\
+depends only on the $z_\mathrm{cut}$ and is angle-independent. For $\beta=2$~\cite{Aaboud:2017qwh}, the condition is angle-dependent, which depends on the angular distance between the two subjets and $z_\mathrm{cut}$ and the algorithm becomes infrared and collinear safe. Both of them have different sensitivities to large angle radiation.}\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item 4.2 analysis method: Is the scan in mass done with the binning on Fig3,5,7,9? seems like you would benefit from smaller bins in the bulk of the distribution, but seems you might run out of statistics though.\\
- \textcolor{red}{$\rightarrow$}Answer: We added the sentence in the section "Analysis method" of the "Detector performance with soft drop mass" of the paper to explain this problem.\\
+ \textcolor{red}{$\rightarrow$}Answer: We added the sentence(next line) in the section "Analysis method" of the "Detector performance with soft drop mass" of the paper to explain this problem.\\
  \textcolor{red}{$\rightarrow$}Sentence: \textcolor{red}{While performing ROC scans, finer bin width optimized for the study is used. However, for the purpose of display, histograms with coarser binning are shown. We apply this condition in all plots includes Sect.5.}\\
- \textcolor{red}{$\rightarrow$}Answer: We also mention(next line) in Sect.5 of the paper again.\\
- \textcolor{red}{$\rightarrow$}Sentence: \textcolor{red}{The display for ROC curves and histograms are the same as Sect.4.3, we show the bigger bin width for presenting the histograms, and use the finer bin width to do the analysis}.
+ \textcolor{red}{$\rightarrow$}Answer: We also add the sentence1(next line) in Sect.5 of the paper again.\\
+ \textcolor{red}{$\rightarrow$}Sentence1: \textcolor{red}{The display for ROC curves and histograms are the same as Sect.4.3, we show the bigger bin width for presenting the histograms, and use the finer bin width to do the analysis}.
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item 4.3 results: (1)Label of figure 3,5,7,9 is not clear. Mention that the background is $Z'\rightarrow q\bar{q}$. (2)Again, it would be good to comment that for the very high mass of 40TeV, no difference can be seen.\\
+\item 4.3 results:\\
+ (1)Label of figure 3,5,7,9 is not clear. Mention that the background is $Z'\rightarrow q\bar{q}$.\\
  \textcolor{red}{$\rightarrow$}Answer:  For question(1), we mention in the caption of the figures with the sentence(next line)\\
  \textcolor{red}{$\rightarrow$}Sentence:  ......." The signal (background) process is $Z' \rightarrow WW$ ($Z'\rightarrow q\bar{q}$)....."\\
- \textcolor{red}{$\rightarrow$}Answer:  For question (2), the jet of three types of processes are too boosted that can't distinguish with the smallest detector cell size, and this mention in the sentence(next line) of Sect. 4.3 results and conclusion:\\
- \textcolor{red}{$\rightarrow$}Sentence: "Note that the separation between ROC curves depends on the physics variable and on the boost of the top quarks or the W bosons. For example, the similarity between the ROC curves shown in Fig. 6(a) is due to the insufficient boost of the top quarks. On the other hand, Fig. 6(d) does not show a difference between the ROC curves because the boost is too high."\\
+  \rule{\textwidth}{0.4pt}
+\textcolor{blue}{(2)Again, it would be good to comment that for the very high mass of 40TeV, no difference can be seen.}\\
+ \textcolor{red}{$\rightarrow$}Answer:  For question (2), the jet of three types of processes are too boosted that can't distinguish with the smallest detector cell size, and this mention in the sentence1(next line) of Sect. 4.3 results and conclusion:\\
+ \textcolor{red}{$\rightarrow$}Sentence1: "Note that the separation between ROC curves depends on the physics variable and on the boost of the top quarks or the W bosons. For example, the similarity between the ROC curves shown in Fig. 6(a) is due to the insufficient boost of the top quarks. On the other hand, Fig. 6(d) does not show a difference between the ROC curves because the boost is too high."\\
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item 5.1 N-subjetiness: (1)Same comment for the scan of Fig 11, 13, 15 as before, seems the binning is a bit too coarse for a scan. (2)For the scan, you add the bin with the larger number of SIGNAL events to extend the mass window? Sorry, now I'm confused by the end of page 11 and the beginning of page 13. Which scanning method is used in the end to make the ROC curves? (3)How can you interpret the fact that larger cell size gives better results for low Zmass?? Seems like something is not optimized, as there is no reason to see this behavior, and that will be good to comment more on it.\\
+\item 5.1 N-subjetiness: \\
+(1)Same comment for the scan of Fig 11, 13, 15 as before, seems the binning is a bit too coarse for a scan.\\ 
  \textcolor{red}{$\rightarrow$}Answer: For question(1), same as before, While performing ROC scans, finer bin width optimized for the study is used. However, for the purpose of display, histograms with coarser binning are shown. We apply this condition in all plots includes Sect.5.\\
- \textcolor{red}{$\rightarrow$}Answer: For question(2), Sorry for the confusion, since they had a very different way to do the study, we deleted the "Same as Sect.4.2" those texts and write its own way(next line), and can avoid confusing about which method we used.\\
+ \rule{\textwidth}{0.4pt}
+(2)For the scan, you add the bin with the larger number of SIGNAL events to extend the mass window? Sorry, now I'm confused by the end of page 11 and the beginning of page 13. Which scanning method is used in the end to make the ROC curves?\\ 
+ \textcolor{red}{$\rightarrow$}Answer: For question(2), Sorry for the confusion, since they had a very different way to do the study, we deleted the "Same as Sect.4.2" those texts and write its own way in the Sentence(next line), and can avoid confusing about which method we used.\\
  \textcolor{red}{$\rightarrow$}Sentence: \textcolor{red}{Following the suggestion of Ref.~\cite{Dreyer:2018tjj}, the requirement on the 
 soft drop mass with $\beta=0$ is applied before the study of $N$-subjettiness. 
 For each detector configuration and resonance mass, the soft drop mass prerequisite window is determined as follows. The window is initialized by the median bin of the soft drop mass histogram from simulated signal events. Comparing the adjacent bins, the bin with the larger number of events is included to extend the mass window iteratively. The procedure is repeated until the prerequisite mass window cut reaches a signal efficiency of 75\%........} \\
+ \rule{\textwidth}{0.4pt}
+\textcolor{blue}{(3)How can you interpret the fact that larger cell size gives better results for low Zmass?? Seems like something is not optimized, as there is no reason to see this behavior, and that will be good to comment more on it.}\\
  \textcolor{red}{$\rightarrow$}Answer: For question(3) because there are some soft-radiation jet just leak out and cut-off by the threshold with the PFA.\\ 
 \end{itemize}
+
 
 \section*{References}
 
