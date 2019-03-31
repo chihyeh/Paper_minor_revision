@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  22 MAR 2019 09:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  31 MAR 2019 20:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2127,12 +2127,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 326.
  ) 
 Here is how much of TeX's memory you used:
  9137 strings out of 492995
- 155515 string characters out of 6132704
+ 155487 string characters out of 6132704
  260463 words of memory out of 5000000
  12295 multiletter control sequences out of 15000+600000
  17321 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,7n,40p,810b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,7n,40p,810b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
@@ -2154,10 +2154,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2017/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2017/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on fcc_hcal_revision.pdf (19 pages, 681316 bytes).
+Output written on fcc_hcal_revision.pdf (19 pages, 681008 bytes).
 PDF statistics:
- 1345 PDF objects out of 1440 (max. 8388607)
- 1056 compressed objects within 11 object streams
+ 1346 PDF objects out of 1440 (max. 8388607)
+ 1057 compressed objects within 11 object streams
  154 named destinations out of 1000 (max. 500000)
  374 words of extra memory for PDF output out of 10000 (max. 10000000)
 

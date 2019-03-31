@@ -109,27 +109,28 @@ M.~Cacciari, G.~P. Salam, G.~Soyez, {The anti-kt jet clustering algorithm},
   JHEP 0804 (2008) 063.
 \newblock \href {http://arxiv.org/abs/0802.1189} {\path{arXiv:0802.1189}}.
 
-\bibitem{Sirunyan:2018xlo}
-CMS~Collaboration, A.~M. Sirunyan, et~al., {Search for narrow and broad dijet
-  resonances in proton-proton collisions at $ \sqrt{s}=13 $ TeV and constraints
-  on dark matter mediators and other new particles}, JHEP 08 (2018) 130.
-\newblock \href {http://arxiv.org/abs/1806.00843} {\path{arXiv:1806.00843}},
-  \href {http://dx.doi.org/10.1007/JHEP08(2018)130}
-  {\path{doi:10.1007/JHEP08(2018)130}}.
+\bibitem{Langacker:2008yv}
+P.~Langacker, {The Physics of Heavy $Z^\prime$ Gauge Bosons}, Rev. Mod. Phys.
+  81 (2009) 1199--1228.
+\newblock \href {http://arxiv.org/abs/0801.1345} {\path{arXiv:0801.1345}},
+  \href {http://dx.doi.org/10.1103/RevModPhys.81.1199}
+  {\path{doi:10.1103/RevModPhys.81.1199}}.
 
-\bibitem{Sirunyan:2017acf}
-CMS~Collaboration, A.~M. Sirunyan, et~al., {Search for massive resonances
-  decaying into $WW$, $WZ$, $ZZ$, $qW$, and $qZ$ with dijet final states at
-  $\sqrt{s}=13\mathrm{TeV}$}, Phys. Rev. D97~(7) (2018) 072006.
-\newblock \href {http://arxiv.org/abs/1708.05379} {\path{arXiv:1708.05379}},
-  \href {http://dx.doi.org/10.1103/PhysRevD.97.072006}
-  {\path{doi:10.1103/PhysRevD.97.072006}}.
+\bibitem{Leike:1998wr}
+A.~Leike, {The Phenomenology of extra neutral gauge bosons}, Phys. Rept. 317
+  (1999) 143--250.
+\newblock \href {http://arxiv.org/abs/hep-ph/9805494}
+  {\path{arXiv:hep-ph/9805494}}, \href
+  {http://dx.doi.org/10.1016/S0370-1573(98)00133-1}
+  {\path{doi:10.1016/S0370-1573(98)00133-1}}.
 
-\bibitem{Sirunyan:2018ryr}
-CMS~Collaboration, A.~M. Sirunyan, et~al., {Search for resonant $\mathrm{t
-  \bar{t}}$ production in proton-proton collisions at $\sqrt{s}=$ 13 TeV},
-  Submitted to: JHEP\href {http://arxiv.org/abs/1810.05905}
-  {\path{arXiv:1810.05905}}.
+\bibitem{Rosner:1996eb}
+J.~L. Rosner, {Prominent decay modes of a leptophobic $Z^\prime$}, Phys. Lett.
+  B387 (1996) 113--117.
+\newblock \href {http://arxiv.org/abs/hep-ph/9607207}
+  {\path{arXiv:hep-ph/9607207}}, \href
+  {http://dx.doi.org/10.1016/0370-2693(96)01022-2}
+  {\path{doi:10.1016/0370-2693(96)01022-2}}.
 
 \bibitem{Sjostrand:2006za}
 T.~Sjostrand, S.~Mrenna, P.~Z. Skands, {PYTHIA 6.4 Physics and Manual}, JHEP 05
