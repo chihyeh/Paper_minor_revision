@@ -24,10 +24,10 @@ rapidity-azimuthal plane ($y$-$\phi$), $R_0$ is the characteristic radius
 of the original jet, and $\beta$ is the angular exponent.
 
 In our study, we compare the HCAL performance for  the soft drop mass with 
-$\beta=0$  and $\beta=2$. \textcolor{red}{For $\beta=0$~\cite{CMS:2017wyc,Tripathee:2017ybi}, the soft drop condition 
-depends only on the $z_\mathrm{cut}$ and is angle-independent. For $\beta=2$~\cite{Aaboud:2017qwh}, the condition is angle-dependent, which depends on 
-the angular distance between the two subjets and $z_\mathrm{cut}$ and the 
-algorithm becomes infrared and collinear safe. Both of them have different sensitivities to large angle radiation.}
+$\beta=0$  and $\beta=2$. For $\beta=0$~\cite{CMS:2017wyc,Tripathee:2017ybi}, the soft drop condition 
+depends only on the $z_\mathrm{cut}$ and is angle-independent. At the parton level, this condition is infrared safe. For $\beta=2$~\cite{Aaboud:2017qwh}, the condition depends on both 
+the angular distance between the two subjets and $z_\mathrm{cut}$, making the 
+algorithm become both infrared and collinear safe at the parton level. Upon calorimeter clustering, the two $\beta$ values give  different sensitivities to large-angle radiation.
 
 \subsection{Analysis method \label{sec:massana}}
 We employ the following method to quantify the detector performance and 
@@ -48,12 +48,13 @@ the ROC curve.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Results and conclusion}\label{Rebin_section}
 
-\textcolor{red}{While performing ROC scans, finer bin width optimized for the study is used. However, for the purpose of display, histograms with coarser binning are shown. We apply this condition for all plots included in Sect.\ref{sec:Jsubvar}}. Figures~\ref{fig:cluster_mass_mmdt_ww},~\ref{fig:cluster_mass_mmdt_tt},~\ref{fig:cluster_mass_sdb2_ww} and~\ref{fig:cluster_mass_sdb2_tt} 
+Figures~\ref{fig:cluster_mass_mmdt_ww},~\ref{fig:cluster_mass_mmdt_tt},~\ref{fig:cluster_mass_sdb2_ww} and~\ref{fig:cluster_mass_sdb2_tt} 
 show the distributions for the soft drop mass for $\beta=0$ and $\beta=2$ with  
 different resonance masses and detector cell sizes; the signals considered are 
 the $Z'\rightarrow WW$ and $Z'\rightarrow t\bar{t}$ processes. 
 Figures~\ref{fig:cluster_mass_mmdt_ww_ROC},~\ref{fig:cluster_mass_mmdt_tt_ROC},~\ref{fig:cluster_mass_sdb2_ww_ROC} and~\ref{fig:cluster_mass_sdb2_tt_ROC} 
 show the corresponding ROC curves for different detector cell sizes and resonance masses.
+The ROC curves are computed with finely-binned histograms; the latter are rebinned coarsely for display purpose only.
 
 %50bins
 \begin{figure}
@@ -254,10 +255,13 @@ similar.
 Note that the separation between ROC curves depends 
 on the physics variable and on the boost of the top quarks or the $W$ bosons. For example, 
 the similarity between the ROC curves shown in Fig.~\ref{fig:cluster_mass_mmdt_tt_ROC}(a)
-is due to the insufficient boost of the top quarks.
+is due to the insufficient boost of the top quarks, 
+ where even the largest cell size provides adequate discrimination from unstructured jets.
 On the other hand, Fig.~\ref{fig:cluster_mass_mmdt_tt_ROC}(d) does not show a difference 
-between the ROC curves because the boost is too high.
- \textcolor{red}{For both of the cases, they indicate the situation that for the different detector cell sizes, if they are not small or big enough to distinguish the different angle of fatjets, it can lead to producing the same separation power for all cell sizes.}
+between the ROC curves because the boost is too high,  where even the smallest  cell size is not small enough, or the lateral spreading of the particle showers 
+ prevents discrimination from unstructured jets. For both $Z' \to WW$ and $Z' \to t \bar{t}$ processes at $M(Z’) = 40$~TeV, the typical opening angle between the daughter jets 
+ is 17 mrad or less; the smallest cell size we consider (1~$\times$~1~cm$^2$ or $\Delta \eta \times \Delta \phi = 4.3 \times 4.3$~mrad$^2$) 
+ is not able to distinguish the substructure at this angular scale.  
 
 We also find that the  soft drop mass with $\beta=0$ has better 
 performance for distinguishing signal from background than with  $\beta=2$. Therefore, we will 

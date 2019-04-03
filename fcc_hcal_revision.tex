@@ -64,6 +64,24 @@
 % to cross text
 \usepackage[normalem]{ulem} % either use this (simple) or
 \usepackage{soul} % use this (many fancier options)
+\usepackage{amsmath,amssymb}
+
+\let\originallesssim\lesssim
+\let\originalgtrsim\gtrsim
+
+\DeclareRobustCommand{\lesssim}{%
+  \mathrel{\mathpalette\lowersim\originallesssim}%
+}
+\DeclareRobustCommand{\gtrsim}{%
+  \mathrel{\mathpalette\lowersim\originalgtrsim}%
+}
+
+\makeatletter
+\newcommand{\lowersim}[2]{%
+  \sbox\z@{$#1<$}%
+  \raisebox{-\dimexpr\height-\ht\z@}{$\m@th#1#2$}%
+}
+\makeatother
 
 
 \hypersetup{
@@ -202,9 +220,9 @@ were studied using several designs for the spatial size of calorimeter cells. Th
 the full Geant4 simulation 
 of calorimeter response combined with realistic reconstruction of calorimeter clusters.
 In most cases, the results indicate that the performance of jet-substructure 
-reconstruction improves \textcolor{red}{with reducing cell size of a hadronic calorimeter 
+reconstruction improves with reducing cell size of a hadronic calorimeter 
 from $\Delta \eta \times \Delta \phi = 0.087\times0.087$,
-which are similar to the cell sizes of the calorimeters of LHC experiments, by a factor of four, to  $0.022\times0.022$.} 
+which are similar to the cell sizes of the calorimeters of LHC experiments, by a factor of four, to  $0.022\times0.022$.
 
 
 \end{abstract}
@@ -224,7 +242,7 @@ multi-TeV physics, $pp$ collider, future hadron colliders, FCC, SppC
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Particle collisions at energies  beyond those attained at the LHC will lead to many challenges for detector technologies.
-\textcolor{red}{Future circular $pp$ colliders~\cite{Mangano:2018mur} such as the European initiatives, FCC-ee~\cite{Benedikt:2651299}, FCC-hh~\cite{Benedikt:2018csr}, high-energy LHC (HE-LHC)~\cite{Zimmermann:2018wdi}, and the Chinese initiative, SppC~\cite{Tang:2015qga} }will measure high-momentum bosons ($W$, $Z$, $H$) and top quarks with highly-collimated decay products that form jets. 
+Future circular $pp$ colliders~\cite{Mangano:2018mur} such as the European initiatives, FCC-hh~\cite{Benedikt:2018csr}, FCC-ee~\cite{Benedikt:2651299}, high-energy LHC (HE-LHC)~\cite{Zimmermann:2018wdi}, and the Chinese initiative, SppC~\cite{Tang:2015qga} will measure high-momentum bosons ($W$, $Z$, $H$) and top quarks with highly-collimated decay products that form jets. 
 Jet substructure techniques are used
 to identify such boosted particles, and thus can maximize the physics potential of the future colliders.
 
@@ -236,38 +254,38 @@ Delphes  \cite{deFavereau:2013fsa}, in which momenta of particles
 are smeared to mimic detector response. 
 
 A major step towards the usage of full Geant4 simulation to verify the granularity requirements 
-for calorimeters was made in \cite{Chekanov:2016ppq}.
+for calorimeters was made in Ref.~\cite{Chekanov:2016ppq}.
 These studies have illustrated a significant impact 
 of granularity of electromagnetic (ECAL) and hadronic (HCAL) calorimeters on the
 cluster separation between two particles. It was concluded that high granularity is essential 
 in resolving two close-by particles for energies above 100 GeV. 
 
-This paper takes the next step in understanding this problem in terms of high-level quantities typically used in physics analyses. Similar to the studies presented in \cite{Chekanov:2016ppq}, this paper is based on a full
+This paper takes the next step in understanding this problem in terms of high-level quantities typically used in physics analyses. Similar to the studies presented in Ref.~\cite{Chekanov:2016ppq}, this paper is based on a full
 Geant4 simulation with realistic jet reconstruction.
 
 \section{Simulation of detector response}
 \label{sec:sim}
 
-The description of the detector and software used for this study is discussed in \cite{Chekanov:2016ppq}.
+The description of the detector and software used for this study is discussed in Ref.~\cite{Chekanov:2016ppq}.
 We use the SiFCC detector geometry with a software package that provides a versatile environment for simulations
 of detector performance, testing new technology options, and event reconstruction techniques for future
 100~TeV colliders.
 
 
-\textcolor{red}{The baseline detector discussed in \cite{Chekanov:2016ppq}
-includes a silicon-tungsten electromagnetic calorimeter with the transverse cell size of 2~$\times$~2~cm$^2$, a steel-scintillator hadronic calorimeter with a transverse cell size of 5~$\times$~5~cm$^2$, and the solenoid out of the ECAL and HCAL that provides the 5 T magnetic field. The studies presented in this paper focus on the performance of  the 
-baseline HCAL with the cell size of 2~$\times$~2~cm$^2$, which corresponds to $\Delta \eta \times \Delta \phi = 0.022\times0.022$, where $\eta$ is the pseudorapidity, $\eta \equiv -\ln\tan(\theta/2)$, and $\phi$ is the azimuthal angle.
+The baseline detector discussed in Ref.~\cite{Chekanov:2016ppq}
+includes a silicon-tungsten electromagnetic calorimeter with a transverse cell size of 2~$\times$~2~cm$^2$, a steel-scintillator hadronic calorimeter with a transverse cell size of 5~$\times$~5~cm$^2$, and a solenoid outside the ECAL and HCAL that provides a 5 T magnetic field. The studies presented in this paper focus on the performance of  the 
+baseline HCAL with the cell size of 5~$\times$~5~cm$^2$, which corresponds to $\Delta \eta \times \Delta \phi = 0.022\times0.022$, where $\eta$ is the pseudorapidity, $\eta \equiv -\ln\tan(\theta/2)$, and $\phi$ is the azimuthal angle.
 The depth of the HCAL in the barrel region is 11.25 interaction lengths ($\lambda_I$).
-The HCAL has 64 longitudinal layers in the barrel and the endcap regions.}
+The HCAL has 64 longitudinal layers in the barrel and the endcap regions.
 
-\textcolor{red}{In addition to the baseline HCAL geometry,
-several geometry variations were considered without changing other settings.
+In addition to the baseline HCAL geometry,
+two geometry variations were considered without changing other settings. 
 We used the HCAL with transverse cell size of
 20~$\times$~20~cm$^2$ and  1~$\times$~1~cm$^2$.
 In the terms of $\Delta \eta \times \Delta \phi$,  such cell sizes correspond to
-$0.087\times0.087$ and  $0.0043\times0.0043$, respectively.}
+$0.087\times0.087$ and  $0.0043\times0.0043$, respectively.
 
-The \GEANTfour\ (version 10.3)~\cite{Allison2016186} simulation of calorimeter response was followed by the full reconstruction of calorimeter clusters formed by the Pandora algorithm \cite{Charles:2009ta,Marshall:2013bda}. \textcolor{red}{The criteria for clustering in the calorimeter were discussed in~\cite{THOMSON200925} and used for the SiD detector design~\cite{Behnke:2013lya} optimized for high-granularity HCAL with the cell sizes 1~$\times$~1~cm$^2$}.
+The \GEANTfour\ (version 10.3)~\cite{Allison2016186} simulation of calorimeter response was followed by the full reconstruction of calorimeter clusters formed by the Pandora algorithm~\cite{Charles:2009ta,Marshall:2013bda}. The criteria for clustering in the calorimeter were discussed in Ref.~\cite{THOMSON200925}. We use the same criteria as those in the SiD detector design~\cite{Behnke:2013lya}, which were optimized for a high-granularity HCAL with a cell size of 1~$\times$~1~cm$^2$.
 Calorimeter clusters were built from calorimeter hits in the  ECAL and HCAL after applying the corresponding sampling fractions. No other corrections are applied.
 Hadronic jets were 
 reconstructed with the {\sc FastJet} package~\cite{fastjet} using the anti-$k_T$ algorithm \cite{Cacciari:2008gp}
@@ -277,17 +295,18 @@ In the following discussion, we use the simulations of a heavy $Z'$ boson,
 a hypothetical gauge boson  that arises from extensions of the electroweak symmetry of the Standard Model.
 The $Z'$ bosons were simulated with the masses $M=5$, $10$, $20$ and $40$~TeV. The lowest value 
 represents a typical mass that is within the reach of the LHC experiments. The  resonance mass of $40$~TeV 
-represents the physics reach for a  100~TeV collider.\textcolor{red}{The $Z'$ bosons are forced to decay to two light-flavor quark ($q\bar{q}$)~\cite{Langacker:2008yv}, $W^+W^-$~\cite{Leike:1998wr} or $t\bar{t}$~\cite{Rosner:1996eb} final states}, where the 
+represents the physics reach for a  100~TeV collider. The $Z'$ bosons are forced to decay to two light-flavor quarks ($q\bar{q}$)~\cite{Langacker:2008yv}, $W^+W^-$~\cite{Leike:1998wr} or $t\bar{t}$~\cite{Rosner:1996eb} final states, where the 
 $W$ bosons and $t$ quarks decay hadronically. In these scenarios, two highly-boosted
 jets are produced,  which are typically back-to-back in the laboratory frame.
 The typical transverse momenta of the jets are $\simeq M/2$.
 The main difference between the considered decay modes lies in the different jet substructures. In the case of the $q\bar{q}$ decays,
 jets do not have any internal structure. In the case of the $W^+W^-$ final state, each jet has two subjets  because of the decay $W\rightarrow q\bar{q}$. In the case of hadronic top decays, jets have three subjets due
-to the decay $t \rightarrow  W^+\>b \rightarrow q\bar{q} b$.    
-The signal events were generated using the \textcolor{red}{\pythia generator~\cite{Sjostrand:2006za}} with the default settings,
+to the decay $t \rightarrow  W^+\>b \rightarrow q\bar{q} b$. We use the $Z' \to q\bar{q} \to$~jets process to model the background from QCD jets with approximately the same energy as 
+ the $W$ bosons and top quarks.   
+The signal events were generated using the \pythia generator~\cite{Sjostrand:2006za} with the default settings,
 ignoring interference with SM processes.
 The event samples used in this paper are  available from the
-HepSim  database~\cite{Chekanov:2014fga}.
+HepSim database~\cite{Chekanov:2014fga}.
 
 
 
