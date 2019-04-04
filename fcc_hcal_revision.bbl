@@ -7,12 +7,14 @@
 
 \bibitem{Mangano:2018mur}
 M.~Mangano, et~al., \href{https://cds.cern.ch/record/2651294}{{Future Circular
-  Collider : Vol. 1 Physics opportunities}}.
+  Collider : Vol. 1 Physics opportunities}}, Tech. Rep. CERN-ACC-2018-0056
+  (2018).
 \newline\urlprefix\url{https://cds.cern.ch/record/2651294}
 
 \bibitem{Benedikt:2018csr}
 M.~Benedikt, et~al., \href{https://cds.cern.ch/record/2651300}{{Future Circular
-  Collider : Vol. 3 The Hadron Collider (FCC-hh)}}.
+  Collider : Vol. 3 The Hadron Collider (FCC-hh)}}, Tech. Rep.
+  CERN-ACC-2018-0058 (2019).
 \newline\urlprefix\url{https://cds.cern.ch/record/2651300}
 
 \bibitem{Benedikt:2651299}
@@ -26,7 +28,8 @@ M.~Benedikt, A.~Blondel, O.~Brunner, M.~Capeans~Garrido, F.~Cerutti,
 
 \bibitem{Zimmermann:2018wdi}
 F.~Zimmermann, et~al., \href{https://cds.cern.ch/record/2651305}{{Future
-  Circular Collider : Vol. 4 The High-Energy LHC (HE-LHC)}}.
+  Circular Collider : Vol. 4 The High-Energy LHC (HE-LHC)}}, Tech. Rep.
+  CERN-ACC-2018-0059 (2019).
 \newline\urlprefix\url{https://cds.cern.ch/record/2651305}
 
 \bibitem{Tang:2015qga}
@@ -97,8 +100,13 @@ M.~Thomson,
 
 \bibitem{Behnke:2013lya}
 H.~Abramowicz, et~al., {The International Linear Collider Technical Design
-  Report - Volume 4: Detectors}\href {http://arxiv.org/abs/1306.6329}
-  {\path{arXiv:1306.6329}}.
+  Report - Volume 4: Detectors}, Tech. Rep. ILC-REPORT-2013-040,
+  ANL-HEP-TR-13-20, BNL-100603-2013-IR, IRFU-13-59, CERN-ATS-2013-037,
+  COCKCROFT-13-10, CLNS-13-2085, DESY-13-062, FERMILAB-TM-2554,
+  IHEP-AC-ILC-2013-001, INFN-13-04-LNF, JAI-2013-001, JINR-E9-2013-35,
+  JLAB-R-2013-01, KEK-REPORT-2013-1, KNU-CHEP-ILC-2013-1, LLNL-TR-635539,
+  SLAC-R-1004, ILC-HIGRADE-REPORT-2013-003 (2013).
+\newblock \href {http://arxiv.org/abs/1306.6329} {\path{arXiv:1306.6329}}.
 
 \bibitem{fastjet}
 G.~P.~S. M.~Cacciari, G.~Soyez, {{FastJet user manual }}CERN-PH-TH/2011-297.

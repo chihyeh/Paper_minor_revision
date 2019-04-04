@@ -5,9 +5,11 @@ The style file: elsarticle-num.bst
 Database file #1: biblio.bib
 I was expecting a `,' or a `}'---line 156 of file biblio.bib
  : 
- : @article{Benedikt:2018csr,
+ : @techreport{Benedikt:2018csr,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--I'm ignoring Benedikt:2651299's extra "number" field
+--line 178 of file biblio.bib
 Repeated entry---line 658 of file biblio.bib
  : @inproceedings{Behnke:2013lya
  :                              ,
@@ -16,56 +18,56 @@ Repeated entry---line 1547 of file biblio.bib
  : @article{Thomson200925
  :                       ,
 I'm skipping whatever remains of this entry
-Warning--empty journal in Mangano:2018mur
-Warning--empty journal in Benedikt:2018csr
-Warning--empty journal in Zimmermann:2018wdi
+Warning--empty institution in Mangano:2018mur
+Warning--empty institution in Benedikt:2018csr
+Warning--empty institution in Zimmermann:2018wdi
 Warning--empty pages in Calkins:2013ega
 Warning--empty journal in Chekanov:2015ihl
 Warning--empty journal in Coleman:2017fiq
 Warning--empty pages in Charles:2009ta
-Warning--empty journal in Behnke:2013lya
+Warning--empty institution in Behnke:2013lya
 Warning--empty journal in fastjet
 Warning--empty journal in Auerbach:2014xua
 Warning--empty journal in CMS:2017wyc
 You've used 39 entries,
             2955 wiz_defined-function locations,
-            977 strings with 13290 characters,
-and the built_in function-call counts, 12059 in all, are:
-= -- 1143
+            981 strings with 13677 characters,
+and the built_in function-call counts, 12220 in all, are:
+= -- 1174
 > -- 403
-< -- 4
+< -- 8
 + -- 160
 - -- 121
-* -- 1001
-:= -- 1642
-add.period$ -- 63
+* -- 1021
+:= -- 1673
+add.period$ -- 64
 call.type$ -- 39
 change.case$ -- 46
 chr.to.int$ -- 0
 cite$ -- 50
-duplicate$ -- 377
-empty$ -- 1339
+duplicate$ -- 385
+empty$ -- 1351
 format.name$ -- 151
-if$ -- 3115
+if$ -- 3158
 int.to.chr$ -- 0
 int.to.str$ -- 39
-missing$ -- 37
-newline$ -- 157
+missing$ -- 33
+newline$ -- 158
 num.names$ -- 41
-pop$ -- 229
+pop$ -- 221
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 790
+skip$ -- 791
 stack$ -- 0
 substring$ -- 449
-swap$ -- 145
-text.length$ -- 4
+swap$ -- 153
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 11
 while$ -- 70
 width$ -- 41
-write$ -- 391
+write$ -- 400
 (There were 3 error messages)
