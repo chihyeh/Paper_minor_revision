@@ -8,8 +8,6 @@ I was expecting a `,' or a `}'---line 156 of file biblio.bib
  : @techreport{Benedikt:2018csr,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I'm ignoring Benedikt:2651299's extra "number" field
---line 178 of file biblio.bib
 Repeated entry---line 658 of file biblio.bib
  : @inproceedings{Behnke:2013lya
  :                              ,
@@ -29,45 +27,45 @@ Warning--empty institution in Behnke:2013lya
 Warning--empty journal in fastjet
 Warning--empty journal in Auerbach:2014xua
 Warning--empty journal in CMS:2017wyc
-You've used 39 entries,
+You've used 38 entries,
             2955 wiz_defined-function locations,
-            981 strings with 13677 characters,
-and the built_in function-call counts, 12220 in all, are:
-= -- 1174
-> -- 403
-< -- 8
-+ -- 160
-- -- 121
-* -- 1021
-:= -- 1673
-add.period$ -- 64
-call.type$ -- 39
-change.case$ -- 46
+            971 strings with 13107 characters,
+and the built_in function-call counts, 11733 in all, are:
+= -- 1139
+> -- 351
+< -- 7
++ -- 142
+- -- 104
+* -- 970
+:= -- 1586
+add.period$ -- 63
+call.type$ -- 38
+change.case$ -- 44
 chr.to.int$ -- 0
-cite$ -- 50
-duplicate$ -- 385
-empty$ -- 1351
-format.name$ -- 151
-if$ -- 3158
+cite$ -- 49
+duplicate$ -- 373
+empty$ -- 1320
+format.name$ -- 133
+if$ -- 3049
 int.to.chr$ -- 0
-int.to.str$ -- 39
+int.to.str$ -- 38
 missing$ -- 33
-newline$ -- 158
-num.names$ -- 41
-pop$ -- 221
+newline$ -- 154
+num.names$ -- 40
+pop$ -- 216
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 791
+skip$ -- 771
 stack$ -- 0
-substring$ -- 449
-swap$ -- 153
-text.length$ -- 8
+substring$ -- 447
+swap$ -- 150
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 11
-while$ -- 70
-width$ -- 41
-write$ -- 400
+while$ -- 69
+width$ -- 40
+write$ -- 388
 (There were 3 error messages)
